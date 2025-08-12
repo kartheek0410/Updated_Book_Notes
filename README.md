@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-
+##
 
 
 📚 BookNotes
@@ -54,7 +54,7 @@ http://localhost:5173/
 
 
 
-
+##
 
 ✨ Features
 Login / Signup Page
@@ -88,7 +88,7 @@ Authentication: Bcrypt, Cookies, Sessions
 
 
 
-
+##
 
 
 🌐 Website
