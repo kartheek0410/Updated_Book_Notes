@@ -1,0 +1,105 @@
+/* Typography and colors */
+.text-white {
+  color: #fff; /* true white */
+}
+
+.bg-grey {
+  background-color: rgba(223, 198, 198, 0.677);
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+
+.bg-dark {
+  background-color: #1c1c1c;
+}
+
+.green-bg {
+  background-color: #28a745;
+}
+
+/* Header styling */
+.head {
+  font-family: cursive;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: bold;
+}
+
+/* Left-side book cover and details */
+.photo {
+  flex: 0 1 250px; /* flexible width, not fixed */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Book title styling */
+.photo h2 {
+  font-size: clamp(1.2rem, 2.2vw, 1.8rem); /* scales with screen */
+  font-weight: bold;
+  word-break: break-word;
+  line-height: 1.3;
+  margin: 0;
+  max-width: 90%;
+}
+
+.photo h3 {
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  font-weight: normal;
+  opacity: 0.85;
+  margin: 0;
+}
+
+/* Right-side note content */
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Form Elements */
+textarea.form-control {
+  width: 100%;
+  resize: vertical;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+textarea.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.btn-notes{
+    min-width: 250px ;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container.py-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    max-width: 100%;
+  }
+  .content {
+    min-width: unset;
+    width: 100%;
+  }
+}

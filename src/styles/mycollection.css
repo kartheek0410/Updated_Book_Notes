@@ -1,0 +1,19 @@
+.sidebar {
+    width: 250px;
+    height: 90vh; 
+    flex-shrink: 0; 
+}
+
+.boxx {
+    display: flex;
+    flex-direction: row;
+    height: 90vh; 
+    background-color: #d3e8dc;
+}
+
+.books {
+    flex: 1;            
+    height: 90vh;     
+    background-color: #fff; 
+    overflow-x: auto;   
+}
